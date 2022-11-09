@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Singly_linked_list
 {
+    class Node
+    {
+        public int noMhs;
+        public string nama;
+        public Node next;
+    }
+
     internal class Program
     {
         static void Main(string[] args)
